@@ -1,0 +1,29 @@
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\UserInterface.exe.config
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\UserInterface.exe
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\UserInterface.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\MainWindow.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\App.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface_MarkupCompile.cache
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface_MarkupCompile.lref
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\MainWindow.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.g.resources
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.cache
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.exe
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AnimatedTextBox.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AddEducationDetails.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AnimatedTextBox.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AddEducationDetails.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\DS.dll
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\DS.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\QualificationControl.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\QualificationControl.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\App.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Theme\Font.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Theme\Summer.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Theme\Winter.baml

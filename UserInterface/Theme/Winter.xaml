@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:local="clr-namespace:UserInterface.Theme">
+
+	<SolidColorBrush x:Key="PrimaryI"
+					 Color="#0F1035" />
+	<SolidColorBrush x:Key="PrimaryII"
+					 Color="#365486" />
+	<SolidColorBrush x:Key="SecondaryI"
+					 Color="#7FC7D9" />
+	<SolidColorBrush x:Key="SecondaryII"
+					 Color="#DCF2F1" />
+
+</ResourceDictionary>

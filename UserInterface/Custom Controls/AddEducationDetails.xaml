@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="UserInterface.Custom_Controls.AddEducationDetails"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="clr-namespace:UserInterface.Custom_Controls"
+			 mc:Ignorable="d"
+			 d:DesignHeight="450"
+			 d:DesignWidth="800"
+			 Name="addEducationControl">
+	<StackPanel Name="myStackPanel"
+				Background="Transparent">
+		<StackPanel.Effect>
+			<DropShadowEffect BlurRadius="1"
+                              Color="#FF3C3C3C"
+                              ShadowDepth="10"
+                              Direction="150"
+                              Opacity="0.5" />
+		</StackPanel.Effect>
+		<StackPanel.Resources>
+			<Style TargetType="local:QualificationControl">
+				<Setter Property="LayoutTransform">
+					<Setter.Value>
+						<RotateTransform Angle="180" />
+					</Setter.Value>
+				</Setter>
+			</Style>
+		</StackPanel.Resources>
+		
+		<StackPanel.LayoutTransform>
+			<RotateTransform Angle="180" />
+		</StackPanel.LayoutTransform>
+		
+		<Label Style="{DynamicResource CommonStyle}" Name="addLabel"
+			   Content="➕">
+
+		</Label>
+	</StackPanel>
+
+	<UserControl.Resources>
+		<local:BorderConverter x:Key="borderConverter" />
+		
+		<Style x:Key="CommonStyle"
+			   TargetType="Label">
+			<Setter Property="Cursor"
+					Value="Hand" />
+			<Setter Property="Background"
+					Value="{Binding CustomBackground, ElementName=addEducationControl}" />
+			<Setter Property="Foreground"
+					Value="{Binding Foreground, ElementName=addEducationControl}" />
+			<Setter Property="FontSize"
+					Value="{Binding FontSize, ElementName=addEducationControl}" />
+			<Setter Property="Height"
+					Value="{Binding AddQualificationHeight, ElementName=addEducationControl}" />
+			<Setter Property="FontFamily"
+					Value="{Binding FontFamily, ElementName=addEducationControl}" />
+			<Setter Property="HorizontalContentAlignment"
+					Value="Center" />
+			<Setter Property="VerticalContentAlignment"
+					Value="Center" />
+			<Setter Property="Clip">
+				<Setter.Value>
+					<RectangleGeometry Rect="{Binding ElementName=addEducationControl, Path=AddQualificationHeight, Converter={StaticResource borderConverter}, ConverterParameter={x:Reference Name=addEducationControl}, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+									   RadiusX="{Binding CustomBorderRadius}"
+									   RadiusY="{Binding CustomBorderRadius}" />
+				</Setter.Value>
+			</Setter>
+			<EventSetter Event="MouseUp"
+						 Handler="OnAddEducation" />
+		</Style>
+		
+	</UserControl.Resources>
+</UserControl>

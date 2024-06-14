@@ -1,0 +1,29 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:UserInterface"
+		xmlns:Custom_Controls="clr-namespace:UserInterface.Custom_Controls"
+		x:Class="UserInterface.MainWindow"
+		mc:Ignorable="d"
+		Title="MainWindow"
+		Height="775.926"
+		Width="951.567">
+	<Grid>
+		<ScrollViewer>
+			<Custom_Controls:AddEducationDetails Padding="10,0,10,5"
+												 HorizontalAlignment="Left"
+												 Width="525"
+												 AddQualificationHeight="100"
+												 Height="100"
+												 Margin="127,132,0,0"
+												 VerticalAlignment="Top"
+												 CustomBackground="LightBlue"
+												 ChildQualificationHeight="200"
+												 Foreground="Red"
+												 CustomBorderRadius="10"
+												 FontSize="16"
+												 Background="#FFFFD7D7" />
+		</ScrollViewer>
+	</Grid>
+</Window>

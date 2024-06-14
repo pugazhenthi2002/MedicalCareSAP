@@ -1,0 +1,5 @@
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\bin\Debug\DS.dll
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\bin\Debug\DS.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.dll
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.pdb
