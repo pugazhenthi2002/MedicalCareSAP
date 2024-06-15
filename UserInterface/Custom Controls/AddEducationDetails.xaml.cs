@@ -35,18 +35,6 @@ namespace UserInterface.Custom_Controls
         #region
 
 
-        public double CustomBorderRadius
-        {
-            get { return (double)GetValue(CustomBorderRadiusProperty); }
-            set { SetValue(CustomBorderRadiusProperty, value); }
-        }
-
-        // Using a DependencyProperty as the backing store for CustomBorderRadius.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty CustomBorderRadiusProperty =
-            DependencyProperty.Register("CustomBorderRadius", typeof(double), typeof(AddEducationDetails), new PropertyMetadata());
-
-
-
         public Brush CustomBackground
         {
             get { return (Brush)GetValue(CustomBackgroundProperty); }
@@ -121,19 +109,18 @@ namespace UserInterface.Custom_Controls
                 background = (Brush)themeResourceDictionary["SecondaryII"];
             }
             Thickness margin = new Thickness(5);
-            QualificationControl control = new QualificationControl()
+            QualificationCustomControl control = new QualificationCustomControl()
             {
                 Margin = margin,
                 Opacity = 0,
-                Width = this.Width - Padding.Left - Padding.Right - margin.Left - margin.Right,
+                Width = this.Width,
                 CustomBackground = background,
-                CustomForeground = foreground,
+                Foreground = foreground,
                 FontFamily = fontFamily,
                 FontSize = this.FontSize,
-                CustomBorderRadius = this.CustomBorderRadius,
                 Height = this.ChildQualificationHeight,
             };
-            control.QualificationDelete += OnDeleteQualification;
+           // control.QualificationDelete += OnDeleteQualification;
             Height = Height + control.Height;
 
             if (myStackPanel.Children.Count - 1 > 0)

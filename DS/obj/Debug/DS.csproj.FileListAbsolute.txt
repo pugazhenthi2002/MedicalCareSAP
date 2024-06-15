@@ -3,3 +3,9 @@ C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\bin\Debug\DS.pdb
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.dll
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.pdb
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\bin\Debug\DS.dll
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\bin\Debug\DS.pdb
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.csproj.AssemblyReference.cache
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.dll
+C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.pdb

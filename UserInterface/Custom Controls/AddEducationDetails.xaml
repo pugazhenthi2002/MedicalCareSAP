@@ -8,14 +8,14 @@
 			 d:DesignHeight="450"
 			 d:DesignWidth="800"
 			 Name="addEducationControl">
-	<StackPanel Name="myStackPanel"
-				Background="Transparent">
+	<StackPanel Name="myStackPanel">
+
 		<StackPanel.Effect>
 			<DropShadowEffect BlurRadius="1"
-                              Color="#FF3C3C3C"
-                              ShadowDepth="10"
-                              Direction="150"
-                              Opacity="0.5" />
+							  Color="#FF3C3C3C"
+							  ShadowDepth="10"
+							  Direction="150"
+							  Opacity="0.5" />
 		</StackPanel.Effect>
 		<StackPanel.Resources>
 			<Style TargetType="local:QualificationControl">
@@ -26,20 +26,30 @@
 				</Setter>
 			</Style>
 		</StackPanel.Resources>
-		
+
 		<StackPanel.LayoutTransform>
 			<RotateTransform Angle="180" />
 		</StackPanel.LayoutTransform>
-		
-		<Label Style="{DynamicResource CommonStyle}" Name="addLabel"
-			   Content="➕">
 
-		</Label>
+		<Grid>
+			<Border CornerRadius="20"
+					Background="AliceBlue"
+					BorderBrush="DarkGray"
+					BorderThickness="2" />
+			
+			<Label Name="addLabel"
+				   Content="➕"
+				   FontSize="24"
+				   HorizontalContentAlignment="Center"
+				   VerticalContentAlignment="Center" 
+				   MouseUp="OnAddEducation"/>
+		</Grid>
+
 	</StackPanel>
 
 	<UserControl.Resources>
 		<local:BorderConverter x:Key="borderConverter" />
-		
+
 		<Style x:Key="CommonStyle"
 			   TargetType="Label">
 			<Setter Property="Cursor"
@@ -68,6 +78,6 @@
 			<EventSetter Event="MouseUp"
 						 Handler="OnAddEducation" />
 		</Style>
-		
+
 	</UserControl.Resources>
 </UserControl>

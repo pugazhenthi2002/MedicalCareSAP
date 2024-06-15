@@ -9,21 +9,15 @@
 		Title="MainWindow"
 		Height="775.926"
 		Width="951.567">
-	<Grid>
-		<ScrollViewer>
-			<Custom_Controls:AddEducationDetails Padding="10,0,10,5"
-												 HorizontalAlignment="Left"
-												 Width="525"
-												 AddQualificationHeight="100"
-												 Height="100"
-												 Margin="127,132,0,0"
-												 VerticalAlignment="Top"
-												 CustomBackground="LightBlue"
-												 ChildQualificationHeight="200"
-												 Foreground="Red"
-												 CustomBorderRadius="10"
-												 FontSize="16"
-												 Background="#FFFFD7D7" />
-		</ScrollViewer>
-	</Grid>
+	<Canvas>
+		<Custom_Controls:QualificationCustomControl Height="151"
+													Width="634"
+													HorizontalAlignment="Left"
+													VerticalAlignment="Top"
+													FontSize="20"
+													Foreground="DarkBlue"
+													CustomBackground="AliceBlue"
+													Canvas.Left="59"
+													Canvas.Top="10" />
+	</Canvas>
 </Window>
