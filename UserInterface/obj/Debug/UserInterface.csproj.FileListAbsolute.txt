@@ -12,17 +12,11 @@ C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debu
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.exe
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.pdb
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AnimatedTextBox.baml
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AddEducationDetails.g.cs
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AnimatedTextBox.g.cs
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\AddEducationDetails.baml
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csprojAssemblyReference.cache
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\DS.dll
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\bin\Debug\DS.pdb
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\UserInterface.csproj.CopyComplete
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\QualificationControl.g.cs
-C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Custom Controls\QualificationControl.baml
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\App.baml
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Theme\Font.baml
 C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Theme\Summer.baml
@@ -58,3 +52,19 @@ C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\obj\Debug\UserInterface
 C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\obj\Debug\UserInte.9C7395B8.Up2Date
 C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\obj\Debug\UserInterface.exe
 C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\obj\Debug\UserInterface.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\LoginSignup\UserLoginWindow.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\LoginSignup\style.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\LoginSignup\UserLoginWindow.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\AdminCreateAccountPage\CreateAccount.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\AdminCreateAccountPage\CreateAccount.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\AdminCreateAccountPage\style.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\MedicalCareSAP\SAPMainWindow.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\MedicalCareSAP\SAPMainWindow.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\MedicalCareSAP\style.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\AddEducationDetails.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\AnimatedTextBox.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\QualificationCustomControl.g.cs
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\AddEducationDetails.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\AnimatedTextBox.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\User Controls\QualificationCustomControl.baml
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\Themes\Generic.baml

@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="UserInterface.User_Controls.AddEducationDetails"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="clr-namespace:UserInterface.User_Controls"
+			 mc:Ignorable="d"
+			 d:DesignHeight="450"
+			 d:DesignWidth="800"
+			 Name="addEducationControl">
+
+	<StackPanel Name="myStackPanel"
+				Background="{Binding ElementName=addEducationControl, Path=CustomBackground}">
+		<Grid>
+			<Border Name="border"
+					Margin="100, 0, 100, 0"
+					Style="{DynamicResource borderStyle}" />
+
+			<Label Name="addLabel"
+				   Style="{DynamicResource labelStyle}">
+			</Label>
+
+		</Grid>
+
+		<StackPanel.Resources>
+			<Style TargetType="local:QualificationCustomControl">
+				<Setter Property="LayoutTransform">
+					<Setter.Value>
+						<RotateTransform Angle="180" />
+					</Setter.Value>
+				</Setter>
+			</Style>
+		</StackPanel.Resources>
+
+		<StackPanel.LayoutTransform>
+			<RotateTransform Angle="180" />
+		</StackPanel.LayoutTransform>
+
+	</StackPanel>
+
+	<UserControl.Resources>
+		<Style x:Key="borderStyle"
+			   TargetType="Border">
+			<Setter Property="CornerRadius"
+					Value="20" />
+			<Setter Property="Background"
+					Value="{Binding ElementName=addEducationControl, Path=CustomBackground}" />
+			<Setter Property="BorderBrush"
+					Value="DarkGray" />
+			<Setter Property="BorderThickness"
+					Value="2" />
+			<Setter Property="Margin"
+					Value="5" />
+			<Setter Property="Effect">
+				<Setter.Value>
+					<DropShadowEffect BlurRadius="10"
+									  Color="#FF3C3C3C"
+									  ShadowDepth="5"
+									  Direction="135"
+									  Opacity="0.7" />
+				</Setter.Value>
+			</Setter>
+			<Style.Triggers>
+				<DataTrigger Binding="{Binding ElementName=addLabel, Path=IsMouseOver}"
+							 Value="true">
+					<Setter Property="Background"
+							Value="{DynamicResource PrimaryI}" />
+
+				</DataTrigger>
+			</Style.Triggers>
+		</Style>
+
+		<Style x:Key="labelStyle"
+			   TargetType="Label">
+			<Setter Property="Content"
+					Value="➕" />
+			<Setter Property="FontSize"
+					Value="24" />
+			<Setter Property="HorizontalContentAlignment"
+					Value="Center" />
+			<Setter Property="VerticalContentAlignment"
+					Value="Center" />
+			<Setter Property="Height"
+					Value="{Binding ElementName=addEducationControl, Path=AddQualificationHeight}" />
+			<Setter Property="Content"
+					Value="➕" />
+			<EventSetter Event="MouseUp"
+						 Handler="OnAddEducation" />
+
+			<Setter Property="Cursor"
+					Value="Hand" />
+			<Style.Triggers>
+				<Trigger Property="IsMouseOver" Value="true">
+					<Setter Property="Foreground"
+							Value="{DynamicResource SecondaryII}" />
+				</Trigger>
+			</Style.Triggers>
+
+		</Style>
+
+	</UserControl.Resources>
+</UserControl>

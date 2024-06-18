@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="UserInterface.User_Controls.AnimatedTextBox"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:local="clr-namespace:UserInterface.User_Controls"
+			 mc:Ignorable="d"
+			 Height="274.705"
+			 Width="623.529"
+			 Name="animatedTextBox">
+
+	<Grid Background="{Binding AnimatedTextBoxBackground}">
+		<TextBox x:Name="mainTextBox"
+				 Background="{Binding AnimatedTextBoxBackground}"
+				 Foreground="{Binding AnimatedTextBoxForeground}"
+				 BorderThickness="0"
+				 VerticalContentAlignment="Center"
+				 Padding="20, 0, 0, 0"
+				 GotFocus="MainTextBox_GotFocus"
+				 FontFamily="{Binding AnimatedFontFamily}"
+				 FontSize="{Binding AnimatedTextBoxFontSize}"
+				 LostFocus="MainTextBox_LostFocus"
+				 PreviewKeyDown="MainTextBox_PreviewKeyDown"
+				 TextChanged="mainTextBox_TextChanged"
+				 PreviewTextInput="MainTextBox_PreviewTextInput" />
+
+		<Rectangle x:Name="roundedRectangle"
+				   RadiusX="{Binding AnimatedTextBoxBorderRadius}"
+				   RadiusY="{Binding AnimatedTextBoxBorderRadius}"
+				   StrokeThickness="2"
+				   Stroke="{Binding AnimatedTextBoxForeground}" />
+
+		<Label x:Name="placeHolder"
+			   Background="{Binding AnimatedTextBoxBackground}"
+			   Foreground="{Binding AnimatedTextBoxForeground}"
+			   Content="{Binding AnimatedTextBoxPlaceHolder}"
+			   FontSize="{Binding AnimatedTextBoxFontSize}"
+			   FontFamily="{Binding AnimatedFontFamily}"
+			   HorizontalAlignment="Left"
+			   VerticalAlignment="Center"
+			   Margin="20, 0, 0, 0"
+			   MouseDown="PlaceHolder_MouseDown" />
+
+		<Canvas Name="viewPassCanvas"
+				HorizontalAlignment="Right"
+				VerticalAlignment="Center"
+				Margin="0,0,48,48">
+
+			<Label Content="👁️"
+				   Foreground="{Binding AnimatedTextBoxForeground}"
+				   MouseDown="ViewPassLabelClicked"
+				   Name="viewPassLabel"
+				   Cursor="Hand"
+				   FontSize="{Binding AnimatedTextBoxFontSize}" />
+			<Line X1="0"
+				  Y1="0"
+				  X2="{Binding ActualWidth, ElementName=viewPassLabel}"
+				  Y2="{Binding ActualHeight, ElementName=viewPassLabel}"
+				  Stroke="{Binding AnimatedTextBoxForeground}"
+				  StrokeThickness="2"
+				  Name="viewPassLabelLine" />
+
+		</Canvas>
+	</Grid>
+</UserControl>

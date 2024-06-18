@@ -9,3 +9,4 @@ C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.csproj.AssemblyRefere
 C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
 C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.dll
 C:\Users\pugaz\source\repos\MedicalCareSAP\DS\obj\Debug\DS.pdb
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\DS\obj\Debug\DS.csprojAssemblyReference.cache

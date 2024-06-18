@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:UserInterface.MedicalCareSAP">
+	<Style x:Key="applicationNameLabelStyle"
+		   TargetType="Label">
+		<Setter Property="FontSize"
+				Value="24" />
+		<Setter Property="Foreground"
+				Value="{StaticResource PrimaryI}" />
+		<Setter Property="HorizontalContentAlignment"
+				Value="Center" />
+		<Setter Property="VerticalContentAlignment"
+				Value="Center" />
+	</Style>
+</ResourceDictionary>

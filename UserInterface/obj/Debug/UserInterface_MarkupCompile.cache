@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\obj\Debug\
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\obj\Debug\
 UserInterface
 none
 false
 DEBUG;TRACE
-C:\Users\pugaz\source\repos\MedicalCareSAP\UserInterface\App.xaml
-8-905933188
+C:\Users\Pugaizhenthi\source\repos\MedicalCareApplication\UserInterface\App.xaml
+141126205407
 
-101087212979
-141341225036
-Custom Controls\AddEducationDetails.xaml;Custom Controls\AnimatedTextBox.xaml;Custom Controls\QualificationControl.xaml;Custom Controls\QualificationCustomControl.xaml;MainWindow.xaml;Theme\Font.xaml;Theme\Summer.xaml;Theme\Winter.xaml;
+17-1492782441
+15336985335
+AdminCreateAccountPage\CreateAccount.xaml;AdminCreateAccountPage\style.xaml;Themes\Generic.xaml;User Controls\AddEducationDetails.xaml;User Controls\AnimatedTextBox.xaml;User Controls\QualificationCustomControl.xaml;LoginSignup\style.xaml;LoginSignup\UserLoginWindow.xaml;MainWindow.xaml;MedicalCareSAP\SAPMainWindow.xaml;MedicalCareSAP\style.xaml;Theme\Font.xaml;Theme\Summer.xaml;Theme\Winter.xaml;
 
 False
 

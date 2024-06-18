@@ -3,21 +3,15 @@
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		xmlns:local="clr-namespace:UserInterface"
-		xmlns:Custom_Controls="clr-namespace:UserInterface.Custom_Controls"
+		xmlns:generic="clr-namespace:UserInterface.Custom_Controls"
+		xmlns:AdminCreateAccountPage="clr-namespace:UserInterface.AdminCreateAccountPage"
 		x:Class="UserInterface.MainWindow"
 		mc:Ignorable="d"
 		Title="MainWindow"
 		Height="775.926"
 		Width="951.567">
-	<Canvas>
-		<Custom_Controls:QualificationCustomControl Height="151"
-													Width="634"
-													HorizontalAlignment="Left"
-													VerticalAlignment="Top"
-													FontSize="20"
-													Foreground="DarkBlue"
-													CustomBackground="AliceBlue"
-													Canvas.Left="59"
-													Canvas.Top="10" />
-	</Canvas>
+	<Grid>
+		<generic:Menu Width="100"
+					  Height="100"/>
+	</Grid>
 </Window>

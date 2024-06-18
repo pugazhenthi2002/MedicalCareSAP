@@ -1,0 +1,110 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:UserInterface.AdminCreateAccountPage"
+					xmlns:control="clr-namespace:UserInterface.User_Controls">
+	
+	<Style x:Key="AccoutnCreateStyle"
+		   TargetType="Grid">
+		<Setter Property="Background"
+				Value="{DynamicResource SecondaryII}" />
+	</Style>
+
+	<Style x:Key="HeaderLabel"
+		   TargetType="Label">
+		<Setter Property="Foreground"
+				Value="{DynamicResource PrimaryI}" />
+		<Setter Property="FontSize"
+				Value="24" />
+		<Setter Property="FontWeight"
+				Value="Bold" />
+		<Setter Property="Padding"
+				Value="15,0,0,0" />
+		<Setter Property="HorizontalContentAlignment"
+				Value="Left" />
+		<Setter Property="VerticalContentAlignment"
+				Value="Center" />
+	</Style>
+
+	<Style x:Key="EllipseNumberStyle"
+		   TargetType="Ellipse">
+		<Setter Property="Width"
+				Value="30" />
+		<Setter Property="Height"
+				Value="30" />
+		<Setter Property="Fill"
+				Value="{StaticResource PrimaryI}" />
+	</Style>
+
+	<Style x:Key="LabelNumberStyle"
+		   TargetType="Label">
+		<Setter Property="Width"
+				Value="30" />
+		<Setter Property="Height"
+				Value="30" />
+		<Setter Property="Foreground"
+				Value="{DynamicResource SecondaryII}" />
+		<Setter Property="HorizontalContentAlignment"
+				Value="Center" />
+		<Setter Property="VerticalContentAlignment"
+				Value="Center" />
+		<Setter Property="Width"
+				Value="30" />
+		<Setter Property="Height"
+				Value="30" />
+		<Setter Property="FontSize"
+				Value="16" />
+		<Setter Property="FontWeight"
+				Value="Bold" />
+	</Style>
+
+	<Style x:Key="AnimatedLabelTextBoxStyle"
+		   TargetType="control:AnimatedTextBox">
+		<Setter Property="AnimatedTextBoxBackground"
+				Value="{DynamicResource SecondaryII}" />
+		<Setter Property="AnimatedTextBoxForeground"
+				Value="{DynamicResource PrimaryI}" />
+		<Setter Property="AnimatedFontFamily"
+				Value="{DynamicResource ApplicationFont}" />
+		<Setter Property="AnimatedTextBoxBorderRadius"
+				Value="10" />
+		<Setter Property="AnimatedTextBoxFontSize"
+				Value="18" />
+		<Setter Property="Margin"
+				Value="5, 10" />
+	</Style>
+
+	<Style x:Key="addEductionStyle" TargetType="control:AddEducationDetails">
+		<Setter Property="AddQualificationHeight"
+				Value="100" />
+		<Setter Property="ChildQualificationHeight"
+				Value="150" />
+		<Setter Property="FontFamily"
+				Value="{DynamicResource ApplicationFont}" />
+		<Setter Property="FontSize"
+				Value="24" />
+		<Setter Property="CustomBackground"
+				Value="{DynamicResource SecondaryII}" />
+		<Setter Property="Foreground"
+				Value="{DynamicResource PrimaryI}" />
+	</Style>
+
+	<Style x:Key="borderStyle"
+		   TargetType="Border">
+		<Setter Property="CornerRadius"
+				Value="20" />
+		<Setter Property="BorderBrush"
+				Value="DarkGray" />
+		<Setter Property="BorderThickness"
+				Value="1" />
+		<Setter Property="Effect">
+			<Setter.Value>
+				<DropShadowEffect BlurRadius="10"
+								  Color="#FF3C3C3C"
+								  ShadowDepth="5"
+								  Direction="135"
+								  Opacity="0.7" />
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+</ResourceDictionary>

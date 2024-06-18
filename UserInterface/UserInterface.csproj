@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>UserInterface</RootNamespace>
     <AssemblyName>UserInterface</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,25 +57,55 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Custom Controls\QualificationCustomControl.xaml.cs">
+    <Compile Include="AdminCreateAccountPage\CreateAccount.xaml.cs">
+      <DependentUpon>CreateAccount.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AwaitAnimationManager.cs" />
+    <Compile Include="Custom Animation\GridLengthAnimation.cs" />
+    <Compile Include="Custom Controls\FanCC.cs" />
+    <Compile Include="Custom Controls\Menu.cs" />
+    <Compile Include="User Controls\QualificationCustomControl.xaml.cs">
       <DependentUpon>QualificationCustomControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoginSignup\UserLoginWindow.xaml.cs">
+      <DependentUpon>UserLoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalCareSAP\SAPMainWindow.xaml.cs">
+      <DependentUpon>SAPMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuButton.cs" />
     <Compile Include="Theme\ThemeManager.cs" />
-    <Page Include="Custom Controls\AddEducationDetails.xaml">
+    <Page Include="AdminCreateAccountPage\CreateAccount.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Custom Controls\AnimatedTextBox.xaml">
+    <Page Include="AdminCreateAccountPage\style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Custom Controls\QualificationControl.xaml">
+    <Page Include="User Controls\AddEducationDetails.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Custom Controls\QualificationCustomControl.xaml">
+    <Page Include="User Controls\AnimatedTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="User Controls\QualificationCustomControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginSignup\style.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LoginSignup\UserLoginWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -84,19 +115,24 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Custom Controls\AddEducationDetails.xaml.cs">
+    <Compile Include="User Controls\AddEducationDetails.xaml.cs">
       <DependentUpon>AddEducationDetails.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Custom Controls\AnimatedTextBox.xaml.cs">
+    <Compile Include="User Controls\AnimatedTextBox.xaml.cs">
       <DependentUpon>AnimatedTextBox.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Custom Controls\QualificationControl.xaml.cs">
-      <DependentUpon>QualificationControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MedicalCareSAP\SAPMainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MedicalCareSAP\style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Theme\Font.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -142,5 +178,12 @@
       <Name>DS</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\HealthCareLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\HealthCareTemplate.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
